@@ -1,0 +1,8 @@
+{
+  "name": "Parlons Français",
+  "description": "Application d'expression orale en français par niveaux CECRL (A1-C2) avec reconnaissance et synthèse vocale, retours pédagogiques immédiats et révision active.",
+  "requestFramePermissions": [
+    "android.permission.RECORD_AUDIO"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

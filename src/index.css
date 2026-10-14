@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #0f172a;
+    color: #f8fafc;
+  }
+}
+
+.font-serif-fr {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+@keyframes soundwave {
+  0%, 100% {
+    height: 6px;
+  }
+  50% {
+    height: 28px;
+  }
+}
+
+.animate-soundwave-1 {
+  animation: soundwave 1.1s ease-in-out infinite;
+}
+.animate-soundwave-2 {
+  animation: soundwave 0.8s ease-in-out infinite 0.2s;
+}
+.animate-soundwave-3 {
+  animation: soundwave 1.3s ease-in-out infinite 0.4s;
+}
+.animate-soundwave-4 {
+  animation: soundwave 0.9s ease-in-out infinite 0.1s;
+}
+.animate-soundwave-5 {
+  animation: soundwave 1.2s ease-in-out infinite 0.3s;
+}
